@@ -1,0 +1,35 @@
+.navbar{
+
+    width: 100%;
+    height: auto;
+    background-color: black;
+    position: sticky;
+
+    .inner-container{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        gap: 40px;
+    }
+    
+    .title{
+    
+        color: white;
+        text-transform: capitalize;
+    }
+    
+    .cart-icon{
+    
+        color: white;
+    }
+    
+    .input{
+    
+        height: 50px;
+        width: 100px;
+    }
+
+}
+

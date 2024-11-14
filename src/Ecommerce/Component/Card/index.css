@@ -1,0 +1,22 @@
+.card{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 40px;
+}
+
+.btn{
+
+    height: 50px;
+    width: 100px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bolder;
+}
+
+.btn:hover{
+
+    background-color: rgb(134, 131, 131);
+}

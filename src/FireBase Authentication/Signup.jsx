@@ -11,7 +11,7 @@ const Signup = () => {
 
    async function handleSubmit(e) {
 
-    e.preventDefault(e);
+    e.preventDefault();
 
     try {
        

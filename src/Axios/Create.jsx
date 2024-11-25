@@ -17,9 +17,12 @@ const Create = () => {
     <div className='create'>
    <form onSubmit={handleCreate}>
     <h1>Create Data</h1>
-    <input type='text' name='name' onChange={(e)=>setValue({...value,[e.target.name]:[e.target.value]})}/>
-    <input type='email' name='email' onChange={(e)=>setValue({...value,[e.target.name]:[e.target.value]})}/>
-
+    <label htmlFor="name"><b>Name: </b></label>
+    <input type='text' id='name' name='name' onChange={(e)=>setValue({...value,[e.target.name]:[e.target.value]})}/>
+    <br /><br />
+    <label htmlFor="email"><b>Email: </b></label>
+    <input type='email' id='email' name='email' onChange={(e)=>setValue({...value,[e.target.name]:[e.target.value]})}/>
+    <br /> <br /> <br />
     <button type='submit'>Create</button>
 
    </form>

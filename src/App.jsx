@@ -9,7 +9,7 @@ import Ecom from './Ecommerce/Home'
 const App = () => {
   return (
     <div>
-      <EmailA />
+      <Axiosp/>
     </div>
   )
 }
